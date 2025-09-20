@@ -1,0 +1,7 @@
+{
+    "total_questions_evaluated": 1000,
+    "average_bert_score": 0.9153698801994323,
+    "average_meteor_score": 0.3923545450287868,
+    "average_rouge_score": 0.5336918416733762,
+    "average_f1_score": 0.3883855144413594
+}
