@@ -1,3 +1,15 @@
+# --- SQLite Fix for ChromaDB ---
+# Ensures Chroma uses a newer sqlite (via pysqlite3-binary) instead of system sqlite 3.34.1
+try:
+    __import__('pysqlite3')
+    import sys
+    sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+except ImportError:
+    print("⚠️ Please run: pip install pysqlite3-binary")
+
+
+# --- your existing llm_rag.py code continues here ---
+
 import chromadb
 from chromadb.utils import embedding_functions
 # from google import genai
