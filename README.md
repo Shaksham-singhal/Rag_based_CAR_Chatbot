@@ -28,7 +28,7 @@ CAR CHATBOT/
 │   │   ├── eval_testing_03.py
 │   │   ├── llm_rag.py
 │   │   ├── scrapper.py
-│   │   └── streamlit.py
+│   │   └── app.py
 │   └── test/
 │       ├── _pycache_/
 │       ├── _init_.py
@@ -54,7 +54,7 @@ CAR CHATBOT/
 
 3. **Run the UI Interface:**
    ```bash
-   streamlit run streamlit.py
+   streamlit run app.py
    ```
 
 4. **Run Evaluation:**
