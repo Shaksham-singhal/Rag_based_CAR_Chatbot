@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/982f7486-0c44-412d-a5fd-2b7f089a4f71)
+<img width="1917" height="912" alt="image" src="https://github.com/user-attachments/assets/d68b0952-6b45-4cf3-a81b-1545be0c5840" />
+
 
 # CAR CHATBOT
 
